@@ -1,0 +1,19 @@
+[package]
+name = "transfer_market"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Kim_Jin_Pyo"]
+description = "Simple transfer_market"
+
+[[bin]]
+name = "transfer_market_server"
+path = "src/transfer_market_server.rs"
+
+[[bin]]
+name = "transfer_market_client"
+path = "src/transfer_market_client.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
